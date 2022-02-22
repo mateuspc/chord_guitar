@@ -3,13 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:chord_guitar/data/data_acordes_violao.dart';
 import 'package:chord_guitar/models/acorde.dart';
-import 'package:chord_guitar/shapes/acorde_viola_shape.dart';
 import 'package:chord_guitar/shapes/acorde_violao_shape.dart';
-import 'dart:ui' as ui show Image;
-
-import 'package:chord_guitar/models/posicao.dart';
-import 'package:chord_guitar/pages/page_full_screen_acorde.dart';
-
 
 void main() {
   runApp(MaterialApp(
